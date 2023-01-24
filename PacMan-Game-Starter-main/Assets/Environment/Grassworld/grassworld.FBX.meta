@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: c88990b9bbdfcfa42af3b374bc8b67cb
+timeCreated: 1485799561
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: cliff
+    100002: //RootNode
+    100004: round platform 2x2x1
+    100006: square platform 2x2x1
+    100008: cliff corner
+    100010: arrows
+    100012: ramp
+    100014: Cylinder001
+    100016: trampoline
+    100018: arrow
+    100020: cliff endpiece
+    100022: modular platform center
+    100024: modular platform corner
+    100026: modular platform endpiece
+    100028: modular platform full
+    100030: modular platform wall
+    100032: bridge
+    100034: bridge collision
+    100036: sign
+    100038: round platform
+    100040: maze center single
+    100042: maze segment end
+    100044: maze segment insidecorner
+    100046: maze segment middle
+    100048: maze segment outsidecorner
+    100050: maze segment T
+    400000: cliff
+    400002: //RootNode
+    400004: round platform 2x2x1
+    400006: square platform 2x2x1
+    400008: cliff corner
+    400010: arrows
+    400012: ramp
+    400014: Cylinder001
+    400016: trampoline
+    400018: arrow
+    400020: cliff endpiece
+    400022: modular platform center
+    400024: modular platform corner
+    400026: modular platform endpiece
+    400028: modular platform full
+    400030: modular platform wall
+    400032: bridge
+    400034: bridge collision
+    400036: sign
+    400038: round platform
+    400040: maze center single
+    400042: maze segment end
+    400044: maze segment insidecorner
+    400046: maze segment middle
+    400048: maze segment outsidecorner
+    400050: maze segment T
+    2300000: cliff
+    2300002: round platform 2x2x1
+    2300004: square platform 2x2x1
+    2300006: cliff corner
+    2300008: arrows
+    2300010: ramp
+    2300012: Cylinder001
+    2300014: trampoline
+    2300016: arrow
+    2300018: cliff endpiece
+    2300020: modular platform center
+    2300022: modular platform corner
+    2300024: modular platform endpiece
+    2300026: modular platform full
+    2300028: modular platform wall
+    2300030: bridge
+    2300032: bridge collision
+    2300034: sign
+    2300036: round platform
+    2300038: maze center single
+    2300040: maze segment end
+    2300042: maze segment insidecorner
+    2300044: maze segment middle
+    2300046: maze segment outsidecorner
+    2300048: maze segment T
+    3300000: cliff
+    3300002: round platform 2x2x1
+    3300004: square platform 2x2x1
+    3300006: cliff corner
+    3300008: arrows
+    3300010: ramp
+    3300012: Cylinder001
+    3300014: trampoline
+    3300016: arrow
+    3300018: cliff endpiece
+    3300020: modular platform center
+    3300022: modular platform corner
+    3300024: modular platform endpiece
+    3300026: modular platform full
+    3300028: modular platform wall
+    3300030: bridge
+    3300032: bridge collision
+    3300034: sign
+    3300036: round platform
+    3300038: maze center single
+    3300040: maze segment end
+    3300042: maze segment insidecorner
+    3300044: maze segment middle
+    3300046: maze segment outsidecorner
+    3300048: maze segment T
+    4300000: square platform 2x2x1
+    4300002: round platform 2x2x1
+    4300004: cliff
+    4300006: cliff corner
+    4300008: ramp
+    4300010: arrows
+    4300012: Cylinder001
+    4300014: trampoline
+    4300016: arrow
+    4300018: modular platform full
+    4300020: modular platform center
+    4300022: modular platform endpiece
+    4300024: modular platform corner
+    4300026: modular platform wall
+    4300028: cliff endpiece
+    4300030: sign
+    4300032: bridge
+    4300034: bridge collision
+    4300036: round platform
+    4300038: maze segment middle
+    4300040: maze segment end
+    4300042: maze center single
+    4300044: maze segment insidecorner
+    4300046: maze segment outsidecorner
+    4300048: maze segment T
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
