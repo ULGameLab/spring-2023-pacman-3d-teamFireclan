@@ -48,31 +48,31 @@ public class Player : MonoBehaviour
     {
         SetHealthBarValue(health / 100);
     }
-    void OnTriggerEnter(Collider other)
-    {
+    //void OnTriggerEnter(Collider other)
+   // {
         //Debug.Log("Collision with " + other.gameObject.name);
-        if
-        (other.gameObject.CompareTag
-        ("Enemy"))
-        {
-            Debug.Log
-            ("Collision with Enemy");
-            health
-            -= 5.0f;
-            if (health < 0) health = 0;
-        }
-    }
-    void OnTriggerStay(Collider other)
-    {
-        if
-        (other.gameObject.CompareTag
-        ("Enemy"))
-        {
-            Debug.Log
-            ("Collision (Stay) with Enemy");
-            health
-            -= 0.01f;
-            if (health < 0) health = 0;
-        }
-    }
+       // if
+       // (other.gameObject.CompareTag
+       // ("Enemy"))
+       // {
+       //     Debug.Log
+       //     ("Collision with Enemy");
+       //     health
+       //     -= 5.0f;
+       //    if (health < 0) health = 0;
+        //}
+    //}
+    //void OnTriggerStay(Collider other)
+    //{
+      //  if
+        //(other.gameObject.CompareTag
+        //("Enemy"))
+        //{
+         //   Debug.Log
+          //  ("Collision (Stay) with Enemy");
+           // health
+            //-= 0.01f;
+            //if (health < 0) health = 0;
+        //}
+    //}
 }
