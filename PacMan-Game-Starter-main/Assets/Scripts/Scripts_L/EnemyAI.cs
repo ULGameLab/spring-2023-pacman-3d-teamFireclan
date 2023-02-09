@@ -35,6 +35,15 @@ public class EnemyAI : MonoBehaviour
             Instantiate(junkCube, transform.position, Quaternion.identity);
         }
 
+        if (!player)
+        {
+            player = GameObject.FindWithTag("MegaPac");
+            if (!player)
+            {
+                player = GameObject.FindWithTag("Player");
+            }
+        }
+
         HandleEnemyAIStates();
     }
     void HandleEnemyAIStates()
@@ -53,7 +62,7 @@ public class EnemyAI : MonoBehaviour
     }
     void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.CompareTag("Player"))
+        if (col.gameObject.CompareTag("MegaPac"))
         {
             Renderer[] allRenderers = gameObject.GetComponentsInChildren<Renderer>();
             foreach (Renderer c in allRenderers) c.enabled = false;

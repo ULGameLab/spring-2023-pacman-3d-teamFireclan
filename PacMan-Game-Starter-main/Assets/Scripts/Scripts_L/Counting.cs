@@ -31,9 +31,11 @@ public class Counting : MonoBehaviour
     {
         if (powerup == true)
         {
+            gameObject.tag = "MegaPac";
             elapsedTime += Time.deltaTime;
             if(elapsedTime >= megaTimer)
             {
+                gameObject.tag = "Player";
                 elapsedTime = 0;
                 powerup = false;
             }
