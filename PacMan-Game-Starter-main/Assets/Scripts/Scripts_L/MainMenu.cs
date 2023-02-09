@@ -29,6 +29,6 @@ public class MainMenu : MonoBehaviour
     }
     public void StartGameButton()
     {
-        SceneManager.LoadScene("Choice");
+        SceneManager.LoadScene("MainScene");
     }
 }
