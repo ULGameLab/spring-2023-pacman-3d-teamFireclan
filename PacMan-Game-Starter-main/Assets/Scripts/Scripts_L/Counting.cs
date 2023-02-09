@@ -77,8 +77,7 @@ public class Counting : MonoBehaviour
         {
             if (other.gameObject.CompareTag("Pellet"))
             {
-                score += 1;
-                health += 5;
+                score += 5;
                 countText.text = "Score = " + score.ToString();
                 healthText.text = "Health = " + health.ToString();
             }
@@ -87,8 +86,7 @@ public class Counting : MonoBehaviour
         {
             if (other.gameObject.CompareTag("Pellet"))
             {
-                score += 1;
-                health += 5;
+                score += 5;
                 countText.text = "Score = " + score.ToString();
                 healthText.text = "Health = " + health.ToString();
             }

@@ -42,7 +42,7 @@ public class Collectible_Creator : MonoBehaviour
         Vector3 playerPos = GameObject.FindGameObjectWithTag("Player").transform.position;
         randPos += playerPos;
         randPos.x += 10.0f;
-        randPos.y = playerPos.y + 1;
+        randPos.y += 3f;
         randPos.z += 10.0f;
         return randPos;
     }
