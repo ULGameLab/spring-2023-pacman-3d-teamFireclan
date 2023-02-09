@@ -8,6 +8,9 @@ TagManager:
   - Pellet
   - Junk
   - MegaPellet
+  - Pickup
+  - Fruit
+  - MegaPac
   layers:
   - Default
   - TransparentFX

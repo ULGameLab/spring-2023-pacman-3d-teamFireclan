@@ -32,7 +32,7 @@ public class Collectible_Creator : MonoBehaviour
     private int CountFood()
     {
         int count = 0;
-        GameObject[] food = GameObject.FindGameObjectsWithTag("apple, Banana, Mega Fruit, Burger, Onion, Ice Cream");
+        GameObject[] food = GameObject.FindGameObjectsWithTag("Enemy");
         count = food.Length;
         return count;
     }

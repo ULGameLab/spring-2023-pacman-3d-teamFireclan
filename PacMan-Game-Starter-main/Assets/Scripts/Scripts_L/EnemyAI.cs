@@ -76,5 +76,6 @@ public class EnemyAI : MonoBehaviour
         myaudio.Play();
         yield return new WaitForSeconds(waitTime);
         Destroy(gameObject);
+        
     }
 }
