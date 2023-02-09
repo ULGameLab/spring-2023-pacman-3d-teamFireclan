@@ -53,6 +53,10 @@ public class Counting : MonoBehaviour
         {
             EndGame();
         }
+        if(score >= 100)
+        {
+            GameWon();
+        }
     }
     void OnTriggerEnter(Collider other)
     {
@@ -70,6 +74,10 @@ public class Counting : MonoBehaviour
     void EndGame()
     {
         SceneManager.LoadScene("GameOver");
+    }
+    void GameWon()
+    {
+        SceneManager.LoadScene("YouWin");
     }
     void Collision(Collider other)
     {
