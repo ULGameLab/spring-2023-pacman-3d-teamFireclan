@@ -14,6 +14,7 @@ public class Collectible_Creator : MonoBehaviour
     void Start()
     {
         currentFoodCount = CountFood();
+        parentObject = transform.gameObject;
     }
     // Update is called once per frame
     void Update()
@@ -25,7 +26,7 @@ public class Collectible_Creator : MonoBehaviour
             Vector3 spawnPosition = RandomPositionAroundPlayer();
             GameObject newEnemy = (GameObject)Instantiate(foodPrefab, spawnPosition, Quaternion.Euler(0, 0, 0));
             newEnemy.transform.SetParent(parentObject.transform);
-            currentFoodCount = CountFood();
+            currentFoodCount += 1;
         }
     }
     private int CountFood()
