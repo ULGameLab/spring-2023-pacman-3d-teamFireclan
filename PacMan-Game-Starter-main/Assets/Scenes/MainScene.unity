@@ -1548,7 +1548,19 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8480451202261879712, guid: 00f64b8257a5b6c4db7e2e1e8e366948, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2117515190}
+      addedObject: {fileID: 2117515191}
+    - targetCorrespondingSourceObject: {fileID: 8480451202261879712, guid: 00f64b8257a5b6c4db7e2e1e8e366948, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2117515195}
+    - targetCorrespondingSourceObject: {fileID: 8480451202261879712, guid: 00f64b8257a5b6c4db7e2e1e8e366948, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2117515194}
+    - targetCorrespondingSourceObject: {fileID: 8480451202261879712, guid: 00f64b8257a5b6c4db7e2e1e8e366948, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2117515193}
+    - targetCorrespondingSourceObject: {fileID: 8480451202261879712, guid: 00f64b8257a5b6c4db7e2e1e8e366948, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2117515192}
   m_SourcePrefab: {fileID: 100100000, guid: 00f64b8257a5b6c4db7e2e1e8e366948, type: 3}
 --- !u!4 &620008938 stripped
 Transform:
@@ -5122,7 +5134,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8480451202261879712, guid: 00f64b8257a5b6c4db7e2e1e8e366948, type: 3}
   m_PrefabInstance: {fileID: 590973270}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2117515190
+--- !u!114 &2117515191
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5131,12 +5143,77 @@ MonoBehaviour:
   m_GameObject: {fileID: 2117515183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26522be6912742440821e4e425a90233, type: 3}
+  m_Script: {fileID: 11500000, guid: 8f8d2fdf4e3482543be14fa6f48b7de1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1399582607522876, guid: fe19d0fe4157fda4c9f0f9112bcdb92a, type: 3}
-  maxEnemyCount: 5
-  secondsBetweenSpawn: 1
+  foodPrefab: {fileID: 537556766}
+  parentObject: {fileID: 2117515183}
+  maxFoodCount: 3
+  secondsBetweenSpawn: 5
+--- !u!114 &2117515192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117515183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8d2fdf4e3482543be14fa6f48b7de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodPrefab: {fileID: 470801318}
+  parentObject: {fileID: 2117515183}
+  maxFoodCount: 3
+  secondsBetweenSpawn: 5
+--- !u!114 &2117515193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117515183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8d2fdf4e3482543be14fa6f48b7de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodPrefab: {fileID: 119919161}
+  parentObject: {fileID: 2117515183}
+  maxFoodCount: 3
+  secondsBetweenSpawn: 5
+--- !u!114 &2117515194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117515183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8d2fdf4e3482543be14fa6f48b7de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodPrefab: {fileID: 1160433863}
+  parentObject: {fileID: 2117515183}
+  maxFoodCount: 3
+  secondsBetweenSpawn: 5
+--- !u!114 &2117515195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117515183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8d2fdf4e3482543be14fa6f48b7de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodPrefab: {fileID: 2043571614}
+  parentObject: {fileID: 2117515183}
+  maxFoodCount: 3
+  secondsBetweenSpawn: 5
 --- !u!1 &2122429386
 GameObject:
   m_ObjectHideFlags: 0

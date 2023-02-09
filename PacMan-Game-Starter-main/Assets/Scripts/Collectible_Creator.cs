@@ -25,7 +25,7 @@ public class Collectible_Creator : MonoBehaviour
             elapsedTime = 0;
             Vector3 spawnPosition = RandomPositionAroundPlayer();
             GameObject newEnemy = (GameObject)Instantiate(foodPrefab, spawnPosition, Quaternion.Euler(0, 0, 0));
-            newEnemy.transform.SetParent(parentObject.transform);
+            //newEnemy.transform.SetParent(parentObject.transform);
             currentFoodCount += 1;
         }
     }

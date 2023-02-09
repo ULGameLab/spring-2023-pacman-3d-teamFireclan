@@ -51,4 +51,21 @@ public class EnemyAI : MonoBehaviour
                 break;
         }
     }
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.CompareTag("Player"))
+        {
+            Renderer[] allRenderers = gameObject.GetComponentsInChildren<Renderer>();
+            foreach (Renderer c in allRenderers) c.enabled = false;
+            Collider[] allColliders = gameObject.GetComponentsInChildren<Collider>();
+            foreach (Collider c in allColliders) c.enabled = false;
+            StartCoroutine(PlayAndDestroy(myaudio.clip.length));
+        }
+    }
+    private IEnumerator PlayAndDestroy(float waitTime)
+    {
+        myaudio.Play();
+        yield return new WaitForSeconds(waitTime);
+        Destroy(gameObject);
+    }
 }
