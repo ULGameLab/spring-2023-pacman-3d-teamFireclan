@@ -4471,7 +4471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodPrefab: {fileID: 3707482332362889594, guid: ad8f8797f04eec549b8014faaac1e2e4, type: 3}
   parentObject: {fileID: 2117515183}
-  maxFoodCount: 3
+  maxFoodCount: 15
   secondsBetweenSpawn: 5
 --- !u!114 &2117515192
 MonoBehaviour:
@@ -4487,7 +4487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodPrefab: {fileID: 8581477450144862686, guid: 9b1ede95280ca3a49875c9a4302122ff, type: 3}
   parentObject: {fileID: 2117515183}
-  maxFoodCount: 3
+  maxFoodCount: 15
   secondsBetweenSpawn: 5
 --- !u!114 &2117515193
 MonoBehaviour:
@@ -4503,7 +4503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodPrefab: {fileID: 3059224686784976696, guid: ab0580cf5b0e03e41a2c81e9b10984d4, type: 3}
   parentObject: {fileID: 2117515183}
-  maxFoodCount: 3
+  maxFoodCount: 15
   secondsBetweenSpawn: 5
 --- !u!114 &2117515194
 MonoBehaviour:
@@ -4519,7 +4519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodPrefab: {fileID: 1282337079586353279, guid: 2637fbe49ae61c04fa513a8d0e33fa3d, type: 3}
   parentObject: {fileID: 2117515183}
-  maxFoodCount: 3
+  maxFoodCount: 15
   secondsBetweenSpawn: 5
 --- !u!114 &2117515195
 MonoBehaviour:
@@ -4535,7 +4535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodPrefab: {fileID: 754774835774596568, guid: e7050182084da7049bc52f333002768a, type: 3}
   parentObject: {fileID: 2117515183}
-  maxFoodCount: 3
+  maxFoodCount: 15
   secondsBetweenSpawn: 5
 --- !u!114 &2117515196
 MonoBehaviour:
@@ -4551,7 +4551,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodPrefab: {fileID: 1122842667819228275, guid: dd2ea21cb5c121241a1bf1a1582f300a, type: 3}
   parentObject: {fileID: 2117515183}
-  maxFoodCount: 1
+  maxFoodCount: 3
   secondsBetweenSpawn: 5
 --- !u!114 &2117515197
 MonoBehaviour:
