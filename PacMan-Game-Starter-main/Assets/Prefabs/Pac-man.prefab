@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3275819547101847760}
   m_Layer: 8
   m_Name: Isometric camera rig
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -572,7 +572,7 @@ Transform:
   - {fileID: 8483491720021997344}
   - {fileID: 3237555316081094930}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 27.43, z: 0}
 --- !u!82 &8399627569430044348
 AudioSource:
@@ -747,7 +747,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countText: {fileID: 0}
   healthText: {fileID: 0}
-  megaTimer: 20
+  megaTimer: 15
+  invulnTimer: 2
 --- !u!1 &8480507091923843368
 GameObject:
   m_ObjectHideFlags: 0
