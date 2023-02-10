@@ -3876,6 +3876,54 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9055789701461736771, guid: 38180e7218bea1b429e717d71bc1b512, type: 3}
   m_PrefabInstance: {fileID: 610477306}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &485516006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 485516008}
+  - component: {fileID: 485516007}
+  m_Layer: 0
+  m_Name: Speedy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &485516007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485516006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8d2fdf4e3482543be14fa6f48b7de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodPrefab: {fileID: 3707482332362889594, guid: ad8f8797f04eec549b8014faaac1e2e4, type: 3}
+  parentObject: {fileID: 485516006}
+  maxFoodCount: 50
+  secondsBetweenSpawn: 2
+--- !u!4 &485516008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485516006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -313.94, y: 48.04, z: -399.52}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &487185275 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9055789701461736771, guid: 38180e7218bea1b429e717d71bc1b512, type: 3}
@@ -4445,15 +4493,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8483203141545758502, guid: 00f64b8257a5b6c4db7e2e1e8e366948, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -322.05408
+      value: -293.51
       objectReference: {fileID: 0}
     - target: {fileID: 8483203141545758502, guid: 00f64b8257a5b6c4db7e2e1e8e366948, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 45.558605
+      value: 49.54
       objectReference: {fileID: 0}
     - target: {fileID: 8483203141545758502, guid: 00f64b8257a5b6c4db7e2e1e8e366948, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -419.07672
+      value: -397.99
       objectReference: {fileID: 0}
     - target: {fileID: 8483203141545758502, guid: 00f64b8257a5b6c4db7e2e1e8e366948, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5040,6 +5088,54 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6890951114404280407, guid: 2bd4d4b787c71f2488c43448409569cd, type: 3}
   m_PrefabInstance: {fileID: 674959270}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &675197868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 675197870}
+  - component: {fileID: 675197869}
+  m_Layer: 0
+  m_Name: Clyde Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &675197869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675197868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8d2fdf4e3482543be14fa6f48b7de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodPrefab: {fileID: 3059224686784976696, guid: ab0580cf5b0e03e41a2c81e9b10984d4, type: 3}
+  parentObject: {fileID: 675197868}
+  maxFoodCount: 50
+  secondsBetweenSpawn: 2
+--- !u!4 &675197870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675197868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -326.43, y: 48.04, z: -388.84}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &678528208 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9055789701461736771, guid: 38180e7218bea1b429e717d71bc1b512, type: 3}
@@ -8948,6 +9044,54 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9055789701461736771, guid: 38180e7218bea1b429e717d71bc1b512, type: 3}
   m_PrefabInstance: {fileID: 1481283326}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1235075659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1235075661}
+  - component: {fileID: 1235075660}
+  m_Layer: 0
+  m_Name: Pinky Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1235075660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235075659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8d2fdf4e3482543be14fa6f48b7de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodPrefab: {fileID: 754774835774596568, guid: e7050182084da7049bc52f333002768a, type: 3}
+  parentObject: {fileID: 1235075659}
+  maxFoodCount: 50
+  secondsBetweenSpawn: 2
+--- !u!4 &1235075661
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235075659}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -329.6, y: 48.04, z: -421.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1241491040 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9055789701461736771, guid: 38180e7218bea1b429e717d71bc1b512, type: 3}
@@ -12147,6 +12291,54 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9055789701461736771, guid: 38180e7218bea1b429e717d71bc1b512, type: 3}
   m_PrefabInstance: {fileID: 655602567}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1629297632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1629297634}
+  - component: {fileID: 1629297633}
+  m_Layer: 0
+  m_Name: Inky Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1629297633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629297632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8d2fdf4e3482543be14fa6f48b7de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodPrefab: {fileID: 1282337079586353279, guid: 2637fbe49ae61c04fa513a8d0e33fa3d, type: 3}
+  parentObject: {fileID: 1629297632}
+  maxFoodCount: 50
+  secondsBetweenSpawn: 2
+--- !u!4 &1629297634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629297632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -310.3, y: 48.04, z: -431.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1634297717 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9055789701461736771, guid: 38180e7218bea1b429e717d71bc1b512, type: 3}
@@ -13216,6 +13408,54 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9055789701461736771, guid: 38180e7218bea1b429e717d71bc1b512, type: 3}
   m_PrefabInstance: {fileID: 1054133790}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1749074977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1749074979}
+  - component: {fileID: 1749074978}
+  m_Layer: 0
+  m_Name: Blinky Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1749074978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749074977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8d2fdf4e3482543be14fa6f48b7de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodPrefab: {fileID: 8581477450144862686, guid: 9b1ede95280ca3a49875c9a4302122ff, type: 3}
+  parentObject: {fileID: 1749074977}
+  maxFoodCount: 50
+  secondsBetweenSpawn: 2
+--- !u!4 &1749074979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749074977}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -364.1, y: 48.04, z: -416.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1752933516
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16197,7 +16437,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117515183}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f8d2fdf4e3482543be14fa6f48b7de1, type: 3}
   m_Name: 
@@ -16213,7 +16453,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117515183}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f8d2fdf4e3482543be14fa6f48b7de1, type: 3}
   m_Name: 
@@ -16229,7 +16469,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117515183}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f8d2fdf4e3482543be14fa6f48b7de1, type: 3}
   m_Name: 
@@ -16245,7 +16485,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117515183}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f8d2fdf4e3482543be14fa6f48b7de1, type: 3}
   m_Name: 
@@ -16261,7 +16501,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117515183}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f8d2fdf4e3482543be14fa6f48b7de1, type: 3}
   m_Name: 
@@ -16596,7 +16836,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 752080893208184090, guid: e7050182084da7049bc52f333002768a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -320.93726
+      value: -304.6
       objectReference: {fileID: 0}
     - target: {fileID: 752080893208184090, guid: e7050182084da7049bc52f333002768a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16604,7 +16844,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 752080893208184090, guid: e7050182084da7049bc52f333002768a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -413.84613
+      value: -417.4
       objectReference: {fileID: 0}
     - target: {fileID: 752080893208184090, guid: e7050182084da7049bc52f333002768a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16662,7 +16902,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1279749073354486247, guid: 2637fbe49ae61c04fa513a8d0e33fa3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -330.14328
+      value: -343
       objectReference: {fileID: 0}
     - target: {fileID: 1279749073354486247, guid: 2637fbe49ae61c04fa513a8d0e33fa3d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16670,7 +16910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1279749073354486247, guid: 2637fbe49ae61c04fa513a8d0e33fa3d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -419.8432
+      value: -414.4
       objectReference: {fileID: 0}
     - target: {fileID: 1279749073354486247, guid: 2637fbe49ae61c04fa513a8d0e33fa3d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16789,7 +17029,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3054037050775533562, guid: ab0580cf5b0e03e41a2c81e9b10984d4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -326.1914
+      value: -339.2
       objectReference: {fileID: 0}
     - target: {fileID: 3054037050775533562, guid: ab0580cf5b0e03e41a2c81e9b10984d4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16797,7 +17037,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3054037050775533562, guid: ab0580cf5b0e03e41a2c81e9b10984d4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -411.06454
+      value: -430.7
       objectReference: {fileID: 0}
     - target: {fileID: 3054037050775533562, guid: ab0580cf5b0e03e41a2c81e9b10984d4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16911,7 +17151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3703999811965031352, guid: ad8f8797f04eec549b8014faaac1e2e4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -325.90393
+      value: -328.3
       objectReference: {fileID: 0}
     - target: {fileID: 3703999811965031352, guid: ad8f8797f04eec549b8014faaac1e2e4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16919,7 +17159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3703999811965031352, guid: ad8f8797f04eec549b8014faaac1e2e4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -418.78235
+      value: -431.4
       objectReference: {fileID: 0}
     - target: {fileID: 3703999811965031352, guid: ad8f8797f04eec549b8014faaac1e2e4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17235,7 +17475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8582225069026511406, guid: 9b1ede95280ca3a49875c9a4302122ff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -330.5695
+      value: -332.4
       objectReference: {fileID: 0}
     - target: {fileID: 8582225069026511406, guid: 9b1ede95280ca3a49875c9a4302122ff, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17243,7 +17483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8582225069026511406, guid: 9b1ede95280ca3a49875c9a4302122ff, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -416.2286
+      value: -410.2
       objectReference: {fileID: 0}
     - target: {fileID: 8582225069026511406, guid: 9b1ede95280ca3a49875c9a4302122ff, type: 3}
       propertyPath: m_LocalRotation.w
