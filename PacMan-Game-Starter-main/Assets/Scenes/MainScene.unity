@@ -3908,7 +3908,7 @@ MonoBehaviour:
   foodPrefab: {fileID: 3707482332362889594, guid: ad8f8797f04eec549b8014faaac1e2e4, type: 3}
   parentObject: {fileID: 485516006}
   maxFoodCount: 50
-  secondsBetweenSpawn: 2
+  secondsBetweenSpawn: 5
 --- !u!4 &485516008
 Transform:
   m_ObjectHideFlags: 0
@@ -5120,7 +5120,7 @@ MonoBehaviour:
   foodPrefab: {fileID: 3059224686784976696, guid: ab0580cf5b0e03e41a2c81e9b10984d4, type: 3}
   parentObject: {fileID: 675197868}
   maxFoodCount: 50
-  secondsBetweenSpawn: 2
+  secondsBetweenSpawn: 5
 --- !u!4 &675197870
 Transform:
   m_ObjectHideFlags: 0
@@ -9076,7 +9076,7 @@ MonoBehaviour:
   foodPrefab: {fileID: 754774835774596568, guid: e7050182084da7049bc52f333002768a, type: 3}
   parentObject: {fileID: 1235075659}
   maxFoodCount: 50
-  secondsBetweenSpawn: 2
+  secondsBetweenSpawn: 5
 --- !u!4 &1235075661
 Transform:
   m_ObjectHideFlags: 0
@@ -10949,6 +10949,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8971820460782316658, guid: dd2ea21cb5c121241a1bf1a1582f300a, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5fe5b1e3010ea3f42ae1993593679407, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12323,7 +12327,7 @@ MonoBehaviour:
   foodPrefab: {fileID: 1282337079586353279, guid: 2637fbe49ae61c04fa513a8d0e33fa3d, type: 3}
   parentObject: {fileID: 1629297632}
   maxFoodCount: 50
-  secondsBetweenSpawn: 2
+  secondsBetweenSpawn: 5
 --- !u!4 &1629297634
 Transform:
   m_ObjectHideFlags: 0
@@ -13440,7 +13444,7 @@ MonoBehaviour:
   foodPrefab: {fileID: 8581477450144862686, guid: 9b1ede95280ca3a49875c9a4302122ff, type: 3}
   parentObject: {fileID: 1749074977}
   maxFoodCount: 50
-  secondsBetweenSpawn: 2
+  secondsBetweenSpawn: 5
 --- !u!4 &1749074979
 Transform:
   m_ObjectHideFlags: 0
